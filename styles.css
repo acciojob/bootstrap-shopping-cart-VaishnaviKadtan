@@ -4,6 +4,7 @@ body {
 
 .block-heading {
     text-align: center;
+    padding: 40px 0;
 }
 
 .block-heading h1 {
@@ -15,8 +16,11 @@ body {
 }
 
 .product {
-    background-color: #ffffff;
+    padding: 20px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
     border-radius: 5px;
+    background: #fff;
 }
 
 .product h5 {
@@ -35,7 +39,6 @@ body {
     padding: 40px;
     background-color: #f7fbff;
     border-top: 2px solid #5ea4f3;
-    border-bottom: 1px solid #ddd;
 }
 
 .summary h3 {
@@ -43,7 +46,14 @@ body {
     margin-bottom: 25px;
 }
 
+.summary-item {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+
 .summary .btn {
+    margin-top: 20px;
     background-color: #3b99e0;
     border-color: #3b99e0;
 }
